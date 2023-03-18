@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>QUIZ COVID19</title>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+        <meta name="viewport" content="width-device-width, initial-scal-1.0"/>
+        <link rel="stylesheet" href="questionnaire.css"/>
+
+    </head>
+    <body>
+        <div class="container">
+            <h1>Question 1</h1>
+            <label class="label1">Temperature</label>
+            <input type="number" id="temperature" >
+            <h2>Question 2</h2>
+            <label id="label2">Symptomes</label><br>
+            <input type="checkbox" id="toux" value="Toux"><label>Toux</label><br>
+            <input type="checkbox" id="fatique" value="Fatique"><label>Fatique</label><br>
+            <input type="checkbox" id="maux de tete" value="Maux de tete"><label>Maux de tete</label><br>
+            <h3>Question 3</h3>
+            <label id="label3">Avez vous des difficultés pour respirer?</label>
+            <select id="select">
+                <option value="OUI">OUI</option>
+                <option value="OUI">NON</option>
+            </select>
+            <h4>Question 4</h4>
+            <label id="label4">Avez-vous été en contact avec une personne malade de la Covid19<br> dans les derniers jours?</label><br>
+            <select id="select2">
+                <option value="OUI">OUI</option>
+                <option value="OUI">NON</option>
+            </select>
+            <h5>Question 5</h5>
+            <label id="label5">Avez-vous voyagé dans les derniers jours?</label>
+            <select id="select3">
+                <option value="OUI">OUI</option>
+                <option value="NON">NON</option>
+            </select><br>
+            <input  type="submit" id="button" value="Verifier" onclick="">
+            
+        </div>
+      
+        <script src="questionnaire.js"></script>
+    </body>
+</html>
